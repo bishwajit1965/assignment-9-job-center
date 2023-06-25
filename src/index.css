@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+}
+
+.nav-bar-btn {
+  @apply px-4 py-1 text-sm bg-sky-500 text-white font-semibold rounded-md border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2;
+}
+.active {
+  color: #9333ea;
+  border-bottom: 0.2rem solid #9333ea;
+}
+
+.default-btn {
+  @apply px-10 py-3 text-sm bg-sky-500 text-white font-semibold rounded-md border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2;
+}
